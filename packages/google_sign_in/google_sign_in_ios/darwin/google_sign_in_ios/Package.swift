@@ -18,7 +18,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/google/GoogleSignIn-iOS.git",
-      from: "9.0.0")
+      branch: "main")
   ],
   targets: [
     .target(
